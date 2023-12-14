@@ -59,6 +59,7 @@ public class RadioTest {
         int actual = radio.getRadioStationNumber();
 
         Assertions.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     @Test
     public void ShouldSetNextRadioStationSince1() {
